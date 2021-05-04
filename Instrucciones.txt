@@ -1,0 +1,21 @@
+Hola! A continuación entrenarás un modelo de ML que te permitirá, dado un entrenamiento con miles y miles de imagenes
+de hombres y mujeres (ubicado en el zip que está en la misma carpeta de drive), será capaz de clasificar a una imagen nueva
+de cualquier persona que esta reciba para clasificarla correctamente. Los pasos a seguir son los siguientes:
+
+1. Importa las siguientes librerías para empezar a trabajar:
+
+import os
+from tensorflow.keras import layers
+from tensorflow.keras import Model
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
+
+2.Importa las imagenes del dataset que usaras para entrenar al modelo
+
+3. Comienza a generar uan red neuronal para empezar a clasificar. Te aconsejo que uses varias layers para empezar a jugar 
+con las combinaciones. Usa como argumento en activation igual a 'relu'
+
+4. Haz un testing de tu modelo entrenado. Mide los falsos negativos y haz la bondad de ajuste. Valida la precisión
+del modelo.
+
+5. Genera una prueba con una imagen de tu rostro, ¡Probemos que tan bien entrenaste tu red neuronal!
